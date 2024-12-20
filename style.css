@@ -124,10 +124,10 @@ footer a {
   align-items: center;
   justify-content: center;
 }
-/* Media query pour les tablettes et petits écrans (max-width: 1024px) */
+
 @media (max-width: 1024px) {
   .banner {
-      height: 150px;  /* Réduit la hauteur de la bannière */
+      height: 150px;  
   }
 
   .overlay {
@@ -149,11 +149,16 @@ footer a {
       width: 150px;
   }
   .imagesall {
-    grid-template-columns: repeat(3, 1fr); /* Passe à 3 colonnes */
+    grid-template-columns: repeat(3, 1fr); 
+}
+.texte-presentation {
+  padding: 40px; 
+  font-size: 1.2rem; 
+  height: 80vh;
 }
 }
 
-/* Media query pour les petits écrans, comme les smartphones (max-width: 767px) */
+
 @media (max-width: 767px) {
   body {
       background-size: cover;
@@ -161,7 +166,7 @@ footer a {
   }
 
   .banner {
-      height: 120px;  /* Encore plus petite bannière */
+      height: 120px;  
   }
 
   .overlay {
@@ -187,14 +192,19 @@ footer a {
       padding: 10px;
   }
   .imagesall {
-    grid-template-columns: repeat(2, 1fr); /* Passe à 2 colonnes */
+    grid-template-columns: repeat(2, 1fr); 
+}
+.texte-presentation {
+  padding: 30px; 
+  font-size: 1rem;
+  height: 90vh; 
 }
 }
 
-/* Media query pour les très petits écrans (smartphones en portrait, max-width: 480px) */
+
 @media (max-width: 480px) {
   .banner {
-      height: 100px;  /* Très petite bannière */
+      height: 100px;  
   }
 
   .overlay {
@@ -223,6 +233,23 @@ footer a {
       font-size: 12px;
   }
   .imagesall {
-    grid-template-columns: repeat(1, 1fr); /* Passe à 1 colonne */
+    grid-template-columns: repeat(1, 1fr); 
 }
+  .texte-presentation {
+    height: auto; 
+    padding: 20px; 
+    font-size: 0.9rem; 
+}
+}
+
+.texte-presentation {
+  background-color: rgba(255, 255, 255, 0.7); 
+  padding: 10px;
+  display: inline-block; 
+  color: #333;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  text-align: center;
 }
