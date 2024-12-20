@@ -10,7 +10,7 @@ Mon site est composé de trois pages :
 - Accueil ; présente une imgage de la fanfare quand nous sommes allés en Serbie, le logo de la fanfare, le lien vers le site officiel.
 - Photos : Des photos de certaines de nos dates (notamment celles que j'ai préféré)
 - Le groupe : Présentation du groupe et ce que la fanfare m'a apporté dans ma vie
-- 
+  
 Technologies utilisées :
 - Html5 : struture des pages
 - CSS3 : design et animations
