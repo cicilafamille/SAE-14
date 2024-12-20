@@ -4,4 +4,4 @@ Je suis membre de la fanfare de Bellevue, qui est la fanfare de mon ancien lycé
 
 Pour ce site j'ai utilisé le language Html avec un style css. J'ai utilisé des medias queries pour que ce soit adaptable à tout type d'écrans, et que visuellement ce soit plus jolie. 
 
-Voici le lien vers ma page : http://127.0.0.1:5501/Accueil.html
+Voici le lien vers ma page : 
