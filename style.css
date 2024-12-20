@@ -124,3 +124,105 @@ footer a {
   align-items: center;
   justify-content: center;
 }
+/* Media query pour les tablettes et petits écrans (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .banner {
+      height: 150px;  /* Réduit la hauteur de la bannière */
+  }
+
+  .overlay {
+      padding: 8px 16px;
+  }
+
+  .bouton {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+
+  .logo img {
+      max-width: 200px;
+      max-height: 200px;
+      
+  }
+
+  .moving-image {
+      width: 150px;
+  }
+  .imagesall {
+    grid-template-columns: repeat(3, 1fr); /* Passe à 3 colonnes */
+}
+}
+
+/* Media query pour les petits écrans, comme les smartphones (max-width: 767px) */
+@media (max-width: 767px) {
+  body {
+      background-size: cover;
+      background-position: center;
+  }
+
+  .banner {
+      height: 120px;  /* Encore plus petite bannière */
+  }
+
+  .overlay {
+      padding: 5px 10px;
+  }
+
+  .bouton {
+      padding: 6px 12px;
+      font-size: 12px;
+  }
+
+  .logo img {
+      max-width: 180px;
+      max-height: 180px;
+  }
+
+  .moving-image {
+      width: 120px;
+  }
+
+  footer {
+      text-align: center;
+      padding: 10px;
+  }
+  .imagesall {
+    grid-template-columns: repeat(2, 1fr); /* Passe à 2 colonnes */
+}
+}
+
+/* Media query pour les très petits écrans (smartphones en portrait, max-width: 480px) */
+@media (max-width: 480px) {
+  .banner {
+      height: 100px;  /* Très petite bannière */
+  }
+
+  .overlay {
+      padding: 5px;
+  }
+
+  .bouton {
+      padding: 5px 10px;
+      font-size: 12px;
+  }
+
+  .logo img {
+      max-width: 150px;
+      max-height: 150px;
+  }
+
+  .moving-image {
+      width: 100px;
+  }
+
+  footer {
+      padding: 10px;
+  }
+
+  footer a {
+      font-size: 12px;
+  }
+  .imagesall {
+    grid-template-columns: repeat(1, 1fr); /* Passe à 1 colonne */
+}
+}
